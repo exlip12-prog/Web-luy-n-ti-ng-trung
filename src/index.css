@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-gradient-to-br from-brand-50 via-white to-mint-50 text-slate-800 antialiased;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* Nút bấm dùng chung */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5
+           font-medium transition-all duration-150 active:scale-95
+           focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-brand-500 text-white hover:bg-brand-600 focus:ring-brand-300;
+  }
+  .btn-success {
+    @apply btn bg-mint-500 text-white hover:bg-mint-600 focus:ring-mint-200;
+  }
+  .btn-danger {
+    @apply btn bg-rose-500 text-white hover:bg-rose-600 focus:ring-rose-200;
+  }
+  .btn-ghost {
+    @apply btn bg-white/70 text-slate-700 hover:bg-white border border-slate-200 focus:ring-slate-200;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white shadow-sm border border-slate-100;
+  }
+}
+
+@layer utilities {
+  /* Ẩn thanh cuộn ngang cho thanh điều hướng trên di động */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
