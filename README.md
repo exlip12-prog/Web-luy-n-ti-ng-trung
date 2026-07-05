@@ -9,9 +9,12 @@ bằng `localStorage` (không cần đăng nhập, không cần database).
 1. **词汇卡 · Flashcard từ vựng** — lật thẻ Hán tự → pinyin → nghĩa tiếng Việt →
    câu ví dụ; đánh dấu "đã thuộc / chưa thuộc"; lọc theo chủ đề (购物, 旅游, 家庭, 饮食).
 2. **语法练习 · Quiz ngữ pháp** — trắc nghiệm điền từ / chọn từ / sắp xếp câu, tập
-   trung các điểm trung cấp: 把字句, 被字句, 趋向补语, 结果补语, 可能补语. *(đang phát triển)*
-3. **完成句子 · Điền từ vào câu** — chọn từ/cụm từ đúng cho câu có chỗ trống. *(đang phát triển)*
-4. **学习进度 · Theo dõi tiến độ** — số từ đã học, số câu đúng/sai, biểu đồ đơn giản. *(đang phát triển)*
+   trung các điểm trung cấp: 把字句, 被字句, 趋向补语, 结果补语, 可能补语; hiện đáp án +
+   giải thích tiếng Việt khi trả lời sai.
+3. **完成句子 · Điền từ vào câu** — chọn từ/cụm từ đúng cho câu có chỗ trống; hiện câu
+   hoàn chỉnh + pinyin + nghĩa tiếng Việt + giải thích.
+4. **学习进度 · Theo dõi tiến độ** — số từ đã thuộc (theo chủ đề), số câu đúng/sai,
+   tỉ lệ đúng, biểu đồ thanh đơn giản; nút xoá tiến độ.
 
 ## Yêu cầu
 
